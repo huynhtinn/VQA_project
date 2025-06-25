@@ -48,6 +48,25 @@ graph LR
 
 ---
 
+## 🚀 How to Run
+
+1. **Open the notebook** in Colab
+2. **Enable GPU**: Runtime → Change Runtime Type → GPU
+3. **Mount Google Drive** for persistent storage
+4. **Set paths** inside the notebook
+5. **Run Cells**:
+
+   * 🔸 Captioning (`generate_caption()`)
+   * 🔸 Q\&A Generation (`get_gemini_qna_json()`)
+   * 🔸 Model Training (`train_vqa()`)
+
+> ⚠️ You need a Gemini API Key:
+
+```python
+os.environ['GOOGLE_API_KEY'] = 'YOUR_API_KEY_HERE'
+```
+
+---
 
 ## 🧪 Live Demo
 
